@@ -1,0 +1,1 @@
+javascript:(function(){ void(0);document.getElementById('username').value='Anirban'; document.getElementById('password').value='Bhattacharya'; var evt = document.createEvent("MouseEvents"); evt.initMouseEvent("click",true,true,window,0,0,0,0,0,false,false,false,false,0,null); var cb = document.getElementsByName("submit")[0]; cb.dispatchEvent(evt); })();
